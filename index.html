@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+  <main class="flex">
+    <div class="row">
+      <div class="columna1">
+        <h1>Learn to code by watching others</h1>
+        <h2>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</h2>
+      </div>
+      <div class="columna2">
+        <div class="rowform">
+          <div class="col-1">
+            <b>Try it free 7 days</b> <span> then $20/mo. thereafter</span>
+          </div>
+          <form class="col-2">
+            <div class="contenedorimg">
+              <input type="text" id="fname" placeholder="First Name">
+              <img class="error" src="images/icon-error.svg" alt="">
+            </div>
+            <p class="text">First name cannot be empty</p>
+            <div class="contenedorimg">
+
+              <input type="text" id="lname" placeholder="Last Name">
+              <img class="error" src="images/icon-error.svg" alt="">
+            </div>
+            <p class="text">Last name cannot be empty</p>
+            <div class="contenedorimg">
+              <input type="email" id="mail" placeholder="Email Address">
+              <img class="error" src="images/icon-error.svg" alt="">
+            </div>
+            <p class="text">Looks like this is not an email</p>
+            <div class="contenedorimg">
+              <input type="password" id="password" placeholder="Password">
+              <img class="error" src="images/icon-error.svg" alt="">
+            </div>
+            <p class="text">Password cannot be empty</p>
+            <button id="check" type="submit">CLAIM YOUR FREE</button>
+            <h1>By clicking the button, you are agreeing to our <span> Terms and Services</span></h1>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
